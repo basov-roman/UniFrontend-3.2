@@ -1,0 +1,22 @@
+.test-question-list-item-wrapper {
+  margin-top: 1rem;
+  width: 70%;
+  background-color: blueviolet;
+  color: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+}
+
+.test-question-list-item-wrapper > ul {
+  margin-top: 1rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.answer-container {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}

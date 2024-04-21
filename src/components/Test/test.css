@@ -1,0 +1,13 @@
+.test-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-container > h1 {
+  background-color: rgb(91, 27, 150);
+  color: white;
+  padding: 0.5rem 2rem;
+}
